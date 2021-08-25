@@ -1,0 +1,23 @@
+{
+    "name": "revosystems/google-cloud",
+    "description": "Google Cloud Services to report and log to google",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+        "google/cloud-logging": "^1.21",
+        "google/cloud-error-reporting": "^0.18.3"
+    },
+    "authors": [
+        {
+            "name": "Pau Benet Prat",
+            "email": "pau.benet.prat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Revosystems\\GoogleCloud\\" : "src"
+        }
+    }
+}
