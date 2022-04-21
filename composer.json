@@ -5,8 +5,8 @@
     "license": "MIT",
     "require": {
         "php": ">=7.3",
-        "google/cloud-logging": "^1.21",
-        "google/cloud-error-reporting": "^0.18.3"
+        "psr/log": "^2.0",
+        "google/cloud-error-reporting": "^0.19"
     },
     "authors": [
         {
@@ -14,7 +14,7 @@
             "email": "pau.benet.prat@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Revosystems\\GoogleCloud\\" : "src"
