@@ -4,9 +4,9 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=7.3",
-        "psr/log": "^2.0",
-        "google/cloud-error-reporting": "^0.19"
+        "php": "^8.1",
+        "psr/log": "^3.0",
+        "google/cloud-error-reporting": "^0.22"
     },
     "authors": [
         {
@@ -21,3 +21,4 @@
         }
     }
 }
+
